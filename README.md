@@ -1,54 +1,60 @@
-Breast Cancer Screening 🩺🔬
+# Breast Cancer Screening 🩺🔬
 
-¡Bienvenido/a! Este proyecto utiliza un modelo de red neuronal para detectar el tipo de tumor de mama a partir de imágenes médicas, logrando un recall del 97% en la clasificación. El objetivo es apoyar a profesionales de la salud con herramientas de inteligencia artificial que ayuden en el diagnóstico temprano y preciso del cáncer de mama.
+¡Bienvenido/a! Este proyecto utiliza un modelo de red neuronal para detectar el tipo de tumor de mama a partir de imágenes médicas, logrando un recall del **97%** en la clasificación. El objetivo es apoyar a profesionales de la salud con herramientas de inteligencia artificial que ayuden en el diagnóstico temprano y preciso del cáncer de mama.
 
-Cono modelo final se utilizo trasnfer leraning, callbacks y dropouts.
+## 📂 Descripción
 
-📂 Descripción
+El cáncer de mama es una de las enfermedades más comunes entre mujeres a nivel mundial. Utilizando el dataset [CBIS-DDSM Breast Cancer Image Dataset](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset), desarrollé un modelo de deep learning capaz de analizar imágenes de mamografías y predecir el tipo de tumor.
 
-El cáncer de mama es una de las enfermedades más comunes entre mujeres a nivel mundial. Utilizando el dataset CBIS-DDSM Breast Cancer Image Dataset, desarrollé un modelo de deep learning capaz de analizar imágenes de mamografías y predecir el tipo de tumor.
+## 🚀 Características principales
 
-🚀 Características principales
+- **Precisión:** Recall de 97% en la detección de tumores malignos.
+- **Dataset real:** Usamos imágenes médicas reales y anotadas.
+- **Código reproducible:** Todo el flujo de trabajo está documentado en Jupyter Notebooks.
+- **Fácil de usar:** Scripts y notebooks listos para entrenar, validar y probar el modelo.
 
-Precisión: Recall de 97% en la detección de tumores malignos.
-Dataset real: Usamos imágenes médicas reales y anotadas.
-Código reproducible: Todo el flujo de trabajo está documentado en Jupyter Notebooks.
-Fácil de usar: Scripts y notebooks listos para entrenar, validar y probar el modelo.
-🛠️ Tecnologías usadas
+## 🛠️ Tecnologías usadas
 
-Python
-TensorFlow / Keras
-Jupyter Notebook
-Pandas, NumPy, Matplotlib
-Scikit-learn
-📦 Estructura del proyecto
+- Python
+- TensorFlow / Keras
+- Jupyter Notebook
+- Pandas, NumPy, Matplotlib
+- Scikit-learn
 
-├── data/ # Imágenes y datos procesados
-├── notebooks/ # Jupyter Notebooks con el flujo completo
-├── models/ # Modelos entrenados
-├── README.md # Documentación principal
+## 📦 Estructura del proyecto
 
-🏁 Cómo empezar
+```
+├── data/              # Imágenes y datos procesados
+├── notebooks/         # Jupyter Notebooks con el flujo completo
+├── models/            # Modelos entrenados
+├── README.md          # Documentación principal
+```
 
-Descarga el dataset desde Kaggle:
-https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
-Clona este repositorio:
-git clone https://github.com/Davidalencaste/Breast-cancer-screening.git
-Instala las dependencias:
-pip install -r requirements.txt
-Abre los notebooks para explorar el flujo de trabajo y probar el modelo.
-📊 Resultados
+## 🏁 Cómo empezar
 
-El modelo alcanza un recall de 97%, lo que significa que es altamente efectivo en identificar casos positivos de cáncer de mama.
+1. **Descarga el dataset** desde [Kaggle](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset).
+2. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Davidalencaste/Breast-cancer-screening.git
+   ```
+3. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Abre los notebooks para explorar el flujo de trabajo y probar el modelo.
 
-💡 ¿Por qué este proyecto?
+## 📊 Resultados
+
+El modelo alcanza un **recall de 97%**, lo que significa que es altamente efectivo en identificar casos positivos de cáncer de mama.
+
+## 💡 ¿Por qué este proyecto?
 
 La detección temprana del cáncer de mama puede salvar vidas. Este proyecto demuestra cómo la inteligencia artificial puede ser una herramienta poderosa para ayudar a médicos y pacientes.
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 
 ¡Todas las contribuciones son bienvenidas! Si tienes ideas, dudas o mejoras, abre un issue o envía un pull request.
 
-📧 Contacto
+## 📧 Contacto
 
-Para dudas o colaboraciones, puedes contactarme a través de GitHub.
+Para dudas o colaboraciones, puedes contactarme a través de [GitHub](https://github.com/Davidalencaste).
