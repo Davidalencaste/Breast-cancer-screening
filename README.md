@@ -2,6 +2,8 @@ Breast Cancer Screening 🩺🔬
 
 ¡Bienvenido/a! Este proyecto utiliza un modelo de red neuronal para detectar el tipo de tumor de mama a partir de imágenes médicas, logrando un recall del 97% en la clasificación. El objetivo es apoyar a profesionales de la salud con herramientas de inteligencia artificial que ayuden en el diagnóstico temprano y preciso del cáncer de mama.
 
+Cono modelo final se utilizo trasnfer leraning, callbacks y dropouts.
+
 📂 Descripción
 
 El cáncer de mama es una de las enfermedades más comunes entre mujeres a nivel mundial. Utilizando el dataset CBIS-DDSM Breast Cancer Image Dataset, desarrollé un modelo de deep learning capaz de analizar imágenes de mamografías y predecir el tipo de tumor.
